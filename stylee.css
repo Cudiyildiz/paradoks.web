@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2? family= Mukta:wght@400;700 & family= Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700; 1,200;1,300;1,400;1,500;1,600;1,700;1,800 ve görüntüleme=takas");
+@import url("https://fonts.googleapis.com/css2? aile= Istakoz &family= Mukta:wght@400;700 & display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(istanbul.jpg);
+  background-size: cover;
+  font-family: "popins", sans-serif;
+}
+a {
+  color: white;
+}
+#conteiner {
+  width: 80%;
+  margin: auto;
+}
+
+/*Header start*/
+header {
+  height: 100px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+}
+header nav .logo a {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 700;
+  color: rgba(2, 5, 4, 0.651);
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  column-gap: 25px;
+}
+nav ul a {
+  text-decoration: none;
+  color: rgba(3, 3, 3, 0.856);
+}
+nav .header-menu {
+  display: flex;
+  align-items: center;
+}
+/*header end*/
+
+/*article start*/
+.icerik {
+  position: relative;
+  top: 60px;
+  left: 295px;
+  width: 70%;
+  text-align: center;
+}
+.card {
+  width: 80%;
+}
+/*article end*/
